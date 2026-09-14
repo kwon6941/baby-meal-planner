@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/fix-recipe-menu-names.yml'
+      - 'tools/fix_recipe_menu_names.py'
 
 permissions:
   contents: write
@@ -44,5 +45,5 @@ jobs:
           git config user.name "app-fix-bot"
           git config user.email "app-fix-bot@users.noreply.github.com"
           git add index.html sw.js
-          git commit -m "fix: show clean menu names for recommended recipes"
+          git commit -m "fix: infer actual menu names from recipe titles"
           git push
