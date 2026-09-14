@@ -1,0 +1,12 @@
+{
+  "name": "우리 아기 식단 플래너",
+  "short_name": "아기식단",
+  "description": "개월 수·보유 재료 기반 추천 식단과 실제 공개 레시피 연결, 주간·월간 식단 관리",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f3",
+  "theme_color": "#748f6c",
+  "lang": "ko-KR",
+  "icons": [{"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
