@@ -1,0 +1,66 @@
+name: Fix recommendation button
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/fix-recommend-button.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Restore fillDate function
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          if 'function fillDate(date)' not in s:
+              marker = 'function tokens(menu)'
+              if marker not in s:
+                  raise SystemExit('tokens marker not found')
+              fill = """function fillDate(date){if(state.settings.pantryOnly&&!pantry().length){alert('보유 재료를 먼저 입력해 주세요.');return false}state.meals[date]=state.meals[date]||{};state.meta[date]=state.meta[date]||{};let r=recommend(date);MEALS.forEach(([k])=>{if(!$('emptyOnly').checked||!(state.meals[date][k]||'').trim()){state.meals[date][k]=r[k];state.meta[date][k]=r[k].startsWith('재료 부족')?'short':'rec'}});return true}\n"""
+              s = s.replace(marker, fill + marker, 1)
+              p.write_text(s, encoding='utf-8')
+
+          sw = Path('sw.js')
+          if sw.exists():
+              t = sw.read_text(encoding='utf-8')
+              t = t.replace('baby-meal-planner-v10', 'baby-meal-planner-v11')
+              sw.write_text(t, encoding='utf-8')
+          PY
+
+      - name: Validate JavaScript syntax
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          js=s.split('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/app.js').write_text(js,encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+
+      - name: Commit fix
+        shell: bash
+        run: |
+          if git diff --quiet -- index.html sw.js; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "app-fix-bot"
+          git config user.email "app-fix-bot@users.noreply.github.com"
+          git add index.html sw.js
+          git commit -m "fix: restore recommendation button handler"
+          git push
