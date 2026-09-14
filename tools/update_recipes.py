@@ -6,6 +6,7 @@ from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 from bs4 import BeautifulSoup
+from menu_name_utils import derive_menu_name
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'recipes.json'
@@ -122,6 +123,8 @@ def main():
                     if len(existing)%25==0: print('accepted',len(existing),flush=True)
         if len(existing)>=MAX_RECIPES: break
     items=list(existing.values())
+    for r in items:
+        r['menu_name']=derive_menu_name(r)
     items.sort(key=lambda r:(len(r.get('keywords',[])),r.get('modified') or r.get('published') or r.get('discovered_at') or ''),reverse=True)
     items=items[:MAX_RECIPES]
     out={'updated_at':datetime.now(timezone.utc).isoformat(),'recipe_count':len(items),'recipes':items}
