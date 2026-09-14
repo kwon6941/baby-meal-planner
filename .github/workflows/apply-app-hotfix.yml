@@ -32,6 +32,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes needed"
           else
-            git commit -m "fix: strict recipe links and expand recipe database"
+            git commit -m "feat: expand toddler recipe database toward 300"
             git push
           fi
+
+# expansion trigger: 2026-09-14
