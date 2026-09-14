@@ -30,6 +30,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "feat: normalize menu names for all recipes"
+            git commit -m "feat: normalize menu names for all recipes v2"
             git push
           fi
