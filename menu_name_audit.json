@@ -1,60 +1,114 @@
 {
   "total": 300,
-  "flagged_count": 11,
+  "flagged_count": 43,
   "flagged": [
     {
-      "title": "유아식) 아기 라구소스 만들기(간편.ver/돌아기 특식)",
+      "title": "14개월 유아식 5가지",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/7009503"
+      "url": "https://www.yugacrew.com/crewletter/14-month-baby"
     },
     {
-      "title": "아기 반찬, 아기 양념소불고기 레시피",
+      "title": "유아식레시피:)아기 밥머핀",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6994690"
+      "url": "https://www.10000recipe.com/recipe/6985605"
     },
     {
-      "title": "유아식 돌아기 라구소스 만들기 (feat.밥솥이유식)",
+      "title": "초간단 유아식 반찬 9가지",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/7039201"
+      "url": "https://www.hibonny.com/recipes/QI6bBIgLFe4"
     },
     {
-      "title": "아기 타르타르소스 만들기 / 유아식할때필수!",
+      "title": "유아식 아침메뉴 간식 대용 한그릇 유아식 오뎅 밥계란말이",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6968655"
+      "url": "https://www.10000recipe.com/recipe/7033451"
     },
     {
-      "title": "| 돌아기 생일케이크 | NO밀가루 NO설탕 NO버터 케이크 시트 황금 레시피",
+      "title": "아기 돼지고기카레볼 만들기 돼지다짐육 요리 카레볼 레시피",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6994957"
+      "url": "https://www.10000recipe.com/recipe/7006412"
     },
     {
-      "title": "돌 아기와 온가족이 먹는 프리타타!",
+      "title": "30개월 아기 간식, 아기감자빵 레시피",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6975840"
+      "url": "https://www.10000recipe.com/recipe/7000602"
+    },
+    {
+      "title": "돌아기 간식: 상큼한 딸기요거트빵 만들기",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6998458"
+    },
+    {
+      "title": "6개월 아기간식, 계란없이 큐브 활용하여 단호박사과분유빵 만들기",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6977511"
+    },
+    {
+      "title": "유아식 초간단 아침 메뉴 고구마에그슬럿",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7014017"
+    },
+    {
+      "title": "(유아식) 아기간식식빵으로 만든 [고구마무스롤]",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7007314"
+    },
+    {
+      "title": "아기 바나나쌀빵,분유빵 레시피",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6972229"
+    },
+    {
+      "title": "생선가스 만들기, 생선가스 만드는 법, 타르타르 소스 만들기, 아이 반찬, 유아 반찬, 유아식 식단, 4살 식단,",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6905546"
     },
     {
       "title": "매일 먹는 집반찬 레시피",
@@ -66,39 +120,274 @@
       "url": "https://www.yugacrew.com/crewletter/everyday-home-banchan"
     },
     {
-      "title": "어린이반찬 스트링치즈요리 치즈계란말이 달걀요리 달걀말이",
-      "menu_name": "스트링치즈요리 치즈계란말 달걀요리 달걀말",
+      "title": "아기간식 초간단 귤빵 만들기 / 귤간식",
+      "menu_name": "추천 메뉴",
       "reasons": [
-        "no_style_long"
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7054436"
+    },
+    {
+      "title": "6개월 아기부터 먹을 수 있는 바나나 분유빵",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7025032"
+    },
+    {
+      "title": "아기 유아식 간식 감자빵 노오븐 베이킹",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7012902"
+    },
+    {
+      "title": "어린이반찬 스트링치즈요리 치즈계란말이 달걀요리 달걀말이",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
       ],
       "url": "https://www.10000recipe.com/recipe/7011907"
     },
     {
-      "title": "뻥튀기피자(유아용)",
+      "title": "31개월 아기 간식, 감자계란빵 레시피",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6970725"
+      "url": "https://www.10000recipe.com/recipe/7003230"
     },
     {
-      "title": "고소함이 가득한 마가렛트 만들기 초간단한 홈베이킹 땅콩버터쿠키 만드는법 (돌아기간식, 17개월아기간식)",
+      "title": "30개월 아기 반찬, 브로콜리계란말이 레시피",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6977802"
+      "url": "https://www.10000recipe.com/recipe/7000407"
     },
     {
-      "title": "에어프라이어로 서리태 다시마 쿠키 아기간식 만들기",
+      "title": "아기간식 알러지 걱정 No! 비건 글루텐프리 당근 비스켓 만들기",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6973437"
+      "url": "https://www.10000recipe.com/recipe/6994073"
+    },
+    {
+      "title": "[유아식]아기간식 고구마치즈호떡 버터에 구워 고소한 아기호떡",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6993962"
+    },
+    {
+      "title": "아기가 너무 좋아하는 핑거푸드 계란치즈볼 :: 아기 이유식 간식",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6984792"
+    },
+    {
+      "title": "바나나 커스타드 크림 아기간식 만들기",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6973601"
+    },
+    {
+      "title": "(아기간식) 단호박 견과 호떡",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6955134"
+    },
+    {
+      "title": "(아기반찬) 새우 딤섬 (라이스페이퍼 활용)",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6943705"
+    },
+    {
+      "title": "아기간식 감자당근매시스틱",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6932113"
+    },
+    {
+      "title": "[어린이날간식]극강의 바삭함! 왕새우튀김!!",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6931101"
+    },
+    {
+      "title": "통배추 겉절이, 아이 반찬, 유아 반찬, 유아식 식단. 배추 요리, 오븐요리,",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6902912"
+    },
+    {
+      "title": "두부 브로콜리 부침",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://spring-note-book.tistory.com/entry/%EB%8F%8C-%EC%95%84%EA%B8%B0-%EB%91%90-%EB%8F%8C-%EC%95%84%EA%B8%B0-%EB%AC%B4%EC%97%BC-%EC%9C%A0%EC%95%84%EC%8B%9D-%EB%A0%88%EC%8B%9C%ED%94%BC7-%EC%95%84%EA%B8%B0-%EB%A9%94%EC%B6%94%EB%A6%AC%EC%95%8C-%EC%9E%A5%EC%A1%B0%EB%A6%BC-%EC%95%BC%EC%B1%84-%EA%B3%84%EB%9E%80%EB%A7%90%EC%9D%B4-%EB%91%90%EB%B6%80-%EB%B8%8C%EB%A1%9C%EC%BD%9C%EB%A6%AC-%EB%B6%80%EC%B9%A8"
+    },
+    {
+      "title": "아기 소고기 소보루",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7076761"
+    },
+    {
+      "title": "아기 간식 감자치즈볼 만들기 정말 쉬워요",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7012898"
+    },
+    {
+      "title": "간단하고 맛있는 아기 간식 감자옥수수치즈볼 에어프라이어로",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7000821"
+    },
+    {
+      "title": "양파스크램블~유아,어린이반찬",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6967429"
+    },
+    {
+      "title": "아이반찬, 두부강정, 유아반찬,두부요리",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6895805"
+    },
+    {
+      "title": "10분 완성 초간단 유아식 3가지",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://taeolog.tistory.com/10"
+    },
+    {
+      "title": "아기 두부강정 소스 만들기 유아식 반찬 레시피",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7035636"
+    },
+    {
+      "title": "유아식 오이반찬 만들기",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/7030815"
+    },
+    {
+      "title": "[유아식]아기간식 고구마 말랭이 에어프라이어로 만들기",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6993433"
+    },
+    {
+      "title": "대왕맛살계란말이~유아,어린이반찬",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6964193"
+    },
+    {
+      "title": "(아기 간식) 옥수수 김부각 (콘칩부각)",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6956168"
+    },
+    {
+      "title": "메추리알 분홍소세지부침~도시락반찬/어린이반찬",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6951600"
+    },
+    {
+      "title": "[아기식단] 아기 새우튀김 만들기! 칵테일새우 요리!",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6950414"
+    },
+    {
+      "title": "[아이반찬] 달콤 짧짤 바삭 부드러운 두부강정",
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
+      "url": "https://www.10000recipe.com/recipe/6922857"
     }
   ],
   "all": [
@@ -128,7 +417,7 @@
     },
     {
       "title": "아기 시금치요리 시금치크림리조또 레시피",
-      "menu_name": "시금치요리 시금치크림리조또",
+      "menu_name": "시금치크림리조또",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7031123"
     },
@@ -170,19 +459,22 @@
     },
     {
       "title": "14개월 유아식 5가지",
-      "menu_name": "5가지",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.yugacrew.com/crewletter/14-month-baby"
     },
     {
       "title": "전자레인지 아기 당근케이크 레시피",
-      "menu_name": "전자레인지",
+      "menu_name": "당근케이크",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7079505"
     },
     {
       "title": "아기 밥피자 또띠아 계란 넣어 만든 유아식 간식 메뉴 만들기",
-      "menu_name": "밥피자 또띠아",
+      "menu_name": "밥피자",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7032069"
     },
@@ -230,7 +522,7 @@
     },
     {
       "title": "아기 소고기 계란말이밥 만들기 간단 유아식 레시피",
-      "menu_name": "계란말이밥",
+      "menu_name": "소고기 계란말이밥",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7044752"
     },
@@ -284,16 +576,13 @@
     },
     {
       "title": "유아식) 아기 라구소스 만들기(간편.ver/돌아기 특식)",
-      "menu_name": "추천 메뉴",
-      "reasons": [
-        "no_menu_name",
-        "noise_word"
-      ],
+      "menu_name": "라구소스",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7009503"
     },
     {
       "title": "10개월 아기 유아식:돌전 아기 뜨끈한 국물요리 새우 완자탕",
-      "menu_name": "새우 완자탕",
+      "menu_name": "완자탕",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7000286"
     },
@@ -305,17 +594,17 @@
     },
     {
       "title": "아기 반찬, 아기 양념소불고기 레시피",
+      "menu_name": "양념소불고기",
+      "reasons": [],
+      "url": "https://www.10000recipe.com/recipe/6994690"
+    },
+    {
+      "title": "유아식레시피:)아기 밥머핀",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6994690"
-    },
-    {
-      "title": "유아식레시피:)아기 밥머핀",
-      "menu_name": "밥머핀",
-      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6985605"
     },
     {
@@ -326,19 +615,22 @@
     },
     {
       "title": "초간단 유아식 반찬 9가지",
-      "menu_name": "9가지",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.hibonny.com/recipes/QI6bBIgLFe4"
     },
     {
       "title": "아기 닭다리살 간장 찜닭 레시피 유아식 반찬",
-      "menu_name": "간장 찜닭",
+      "menu_name": "감자 당근 양파 찜",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7079939"
     },
     {
       "title": "엄마표 아기간식, 당근 호두 케이크",
-      "menu_name": "당근",
+      "menu_name": "케이크",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7064144"
     },
@@ -362,11 +654,8 @@
     },
     {
       "title": "유아식 돌아기 라구소스 만들기 (feat.밥솥이유식)",
-      "menu_name": "추천 메뉴",
-      "reasons": [
-        "no_menu_name",
-        "noise_word"
-      ],
+      "menu_name": "라구소스",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7039201"
     },
     {
@@ -377,14 +666,20 @@
     },
     {
       "title": "유아식 아침메뉴 간식 대용 한그릇 유아식 오뎅 밥계란말이",
-      "menu_name": "밥계란말",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7033451"
     },
     {
       "title": "아기 돼지고기카레볼 만들기 돼지다짐육 요리 카레볼 레시피",
-      "menu_name": "돼지고기카레볼",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7006412"
     },
     {
@@ -401,20 +696,26 @@
     },
     {
       "title": "아기 국요리 고소한 버섯들깨탕 끓이기 영양듬뿍 버섯들깨탕 레시피",
-      "menu_name": "국요리",
+      "menu_name": "버섯들깨탕",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7003684"
     },
     {
       "title": "30개월 아기 간식, 아기감자빵 레시피",
-      "menu_name": "감자빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7000602"
     },
     {
       "title": "돌아기 간식: 상큼한 딸기요거트빵 만들기",
-      "menu_name": "딸기요거트빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6998458"
     },
     {
@@ -425,7 +726,7 @@
     },
     {
       "title": "돌아기간식, 포슬포슬 촉촉한 흑임자바나나머핀&찐빵 레시피",
-      "menu_name": "계란 바나나 오트밀",
+      "menu_name": "흑임자바나나머핀 찐빵",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6987448"
     },
@@ -437,17 +738,17 @@
     },
     {
       "title": "6개월 아기간식, 계란없이 큐브 활용하여 단호박사과분유빵 만들기",
-      "menu_name": "계란없 단호박사과분유빵",
-      "reasons": [],
-      "url": "https://www.10000recipe.com/recipe/6977511"
-    },
-    {
-      "title": "아기 타르타르소스 만들기 / 유아식할때필수!",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
+      "url": "https://www.10000recipe.com/recipe/6977511"
+    },
+    {
+      "title": "아기 타르타르소스 만들기 / 유아식할때필수!",
+      "menu_name": "타르타르소스",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6968655"
     },
     {
@@ -578,8 +879,11 @@
     },
     {
       "title": "유아식 초간단 아침 메뉴 고구마에그슬럿",
-      "menu_name": "고구마에그슬럿",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7014017"
     },
     {
@@ -608,8 +912,11 @@
     },
     {
       "title": "(유아식) 아기간식식빵으로 만든 [고구마무스롤]",
-      "menu_name": "간식식빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7007314"
     },
     {
@@ -620,7 +927,7 @@
     },
     {
       "title": "유아식 반찬 시금치 프리타타 계란 요리 만들기",
-      "menu_name": "시금치 계란",
+      "menu_name": "시금치 프리타타",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7005313"
     },
@@ -638,13 +945,13 @@
     },
     {
       "title": "[유아식]아기 소불고기 레시피 배음료로 간단하게 양념 만들기",
-      "menu_name": "배음료",
+      "menu_name": "소불고기",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6999718"
     },
     {
       "title": "감자국 계란국 감자계란국 아기계란국",
-      "menu_name": "감자국 감자계란국",
+      "menu_name": "감자국 계란국 감자계란국",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6999354"
     },
@@ -662,11 +969,8 @@
     },
     {
       "title": "| 돌아기 생일케이크 | NO밀가루 NO설탕 NO버터 케이크 시트 황금 레시피",
-      "menu_name": "추천 메뉴",
-      "reasons": [
-        "no_menu_name",
-        "noise_word"
-      ],
+      "menu_name": "생일케이크",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6994957"
     },
     {
@@ -707,17 +1011,17 @@
     },
     {
       "title": "돌 아기와 온가족이 먹는 프리타타!",
+      "menu_name": "프리타타",
+      "reasons": [],
+      "url": "https://www.10000recipe.com/recipe/6975840"
+    },
+    {
+      "title": "아기 바나나쌀빵,분유빵 레시피",
       "menu_name": "추천 메뉴",
       "reasons": [
         "no_menu_name",
         "noise_word"
       ],
-      "url": "https://www.10000recipe.com/recipe/6975840"
-    },
-    {
-      "title": "아기 바나나쌀빵,분유빵 레시피",
-      "menu_name": "바나나쌀빵 분유빵",
-      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6972229"
     },
     {
@@ -746,8 +1050,11 @@
     },
     {
       "title": "생선가스 만들기, 생선가스 만드는 법, 타르타르 소스 만들기, 아이 반찬, 유아 반찬, 유아식 식단, 4살 식단,",
-      "menu_name": "생선가스",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6905546"
     },
     {
@@ -833,8 +1140,11 @@
     },
     {
       "title": "아기간식 초간단 귤빵 만들기 / 귤간식",
-      "menu_name": "귤빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7054436"
     },
     {
@@ -875,7 +1185,7 @@
     },
     {
       "title": "아기 닭고기 요리, 진짜 쉽고 간단하게 만드는 닭불고기!",
-      "menu_name": "닭고기",
+      "menu_name": "닭불고기",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7032125"
     },
@@ -887,8 +1197,11 @@
     },
     {
       "title": "6개월 아기부터 먹을 수 있는 바나나 분유빵",
-      "menu_name": "바나나 분유빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7025032"
     },
     {
@@ -905,14 +1218,17 @@
     },
     {
       "title": "아기 유아식 전기밥솥 누룽지 삼계탕 만드는법",
-      "menu_name": "전기밥솥",
+      "menu_name": "삼계탕",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7012904"
     },
     {
       "title": "아기 유아식 간식 감자빵 노오븐 베이킹",
-      "menu_name": "감자빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7012902"
     },
     {
@@ -947,9 +1263,10 @@
     },
     {
       "title": "어린이반찬 스트링치즈요리 치즈계란말이 달걀요리 달걀말이",
-      "menu_name": "스트링치즈요리 치즈계란말 달걀요리 달걀말",
+      "menu_name": "추천 메뉴",
       "reasons": [
-        "no_style_long"
+        "no_menu_name",
+        "noise_word"
       ],
       "url": "https://www.10000recipe.com/recipe/7011907"
     },
@@ -979,8 +1296,11 @@
     },
     {
       "title": "31개월 아기 간식, 감자계란빵 레시피",
-      "menu_name": "감자계란빵",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7003230"
     },
     {
@@ -1009,8 +1329,11 @@
     },
     {
       "title": "30개월 아기 반찬, 브로콜리계란말이 레시피",
-      "menu_name": "브로콜리계란말",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7000407"
     },
     {
@@ -1045,14 +1368,20 @@
     },
     {
       "title": "아기간식 알러지 걱정 No! 비건 글루텐프리 당근 비스켓 만들기",
-      "menu_name": "당근",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6994073"
     },
     {
       "title": "[유아식]아기간식 고구마치즈호떡 버터에 구워 고소한 아기호떡",
-      "menu_name": "고구마치즈호떡 버터",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6993962"
     },
     {
@@ -1081,8 +1410,11 @@
     },
     {
       "title": "아기가 너무 좋아하는 핑거푸드 계란치즈볼 :: 아기 이유식 간식",
-      "menu_name": "너무 계란치즈볼",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6984792"
     },
     {
@@ -1093,7 +1425,7 @@
     },
     {
       "title": "어린이식단 아이반찬 밥도둑 두부강정",
-      "menu_name": "밥도둑",
+      "menu_name": "두부 사과 밥",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6982130"
     },
@@ -1111,8 +1443,11 @@
     },
     {
       "title": "바나나 커스타드 크림 아기간식 만들기",
-      "menu_name": "바나나 크림",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6973601"
     },
     {
@@ -1141,8 +1476,11 @@
     },
     {
       "title": "(아기간식) 단호박 견과 호떡",
-      "menu_name": "단호박",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6955134"
     },
     {
@@ -1159,13 +1497,16 @@
     },
     {
       "title": "(아기반찬) 새우 딤섬 (라이스페이퍼 활용)",
-      "menu_name": "새우",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6943705"
     },
     {
       "title": "유아식 아기찜닭 만들기",
-      "menu_name": "찜닭",
+      "menu_name": "감자 당근 양파 찜",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6943557"
     },
@@ -1183,14 +1524,20 @@
     },
     {
       "title": "아기간식 감자당근매시스틱",
-      "menu_name": "감자당근매시스틱",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6932113"
     },
     {
       "title": "[어린이날간식]극강의 바삭함! 왕새우튀김!!",
-      "menu_name": "왕새우튀김",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6931101"
     },
     {
@@ -1201,8 +1548,11 @@
     },
     {
       "title": "통배추 겉절이, 아이 반찬, 유아 반찬, 유아식 식단. 배추 요리, 오븐요리,",
-      "menu_name": "통배추",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6902912"
     },
     {
@@ -1225,7 +1575,7 @@
     },
     {
       "title": "파프리카를 이용한 아기김치 아기깍두기만들기",
-      "menu_name": "파프리카 김치",
+      "menu_name": "김치",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6873456"
     },
@@ -1267,13 +1617,16 @@
     },
     {
       "title": "두부 브로콜리 부침",
-      "menu_name": "두부 브로콜리",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://spring-note-book.tistory.com/entry/%EB%8F%8C-%EC%95%84%EA%B8%B0-%EB%91%90-%EB%8F%8C-%EC%95%84%EA%B8%B0-%EB%AC%B4%EC%97%BC-%EC%9C%A0%EC%95%84%EC%8B%9D-%EB%A0%88%EC%8B%9C%ED%94%BC7-%EC%95%84%EA%B8%B0-%EB%A9%94%EC%B6%94%EB%A6%AC%EC%95%8C-%EC%9E%A5%EC%A1%B0%EB%A6%BC-%EC%95%BC%EC%B1%84-%EA%B3%84%EB%9E%80%EB%A7%90%EC%9D%B4-%EB%91%90%EB%B6%80-%EB%B8%8C%EB%A1%9C%EC%BD%9C%EB%A6%AC-%EB%B6%80%EC%B9%A8"
     },
     {
       "title": "아이반찬 콩나물 맛살무침 \n간단하고 자주해먹기 좋아요~~^^",
-      "menu_name": "맛살무침",
+      "menu_name": "콩나물",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6884535"
     },
@@ -1285,8 +1638,11 @@
     },
     {
       "title": "아기 소고기 소보루",
-      "menu_name": "소고기",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7076761"
     },
     {
@@ -1399,8 +1755,11 @@
     },
     {
       "title": "아기 간식 감자치즈볼 만들기 정말 쉬워요",
-      "menu_name": "감자치즈볼",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7012898"
     },
     {
@@ -1459,8 +1818,11 @@
     },
     {
       "title": "간단하고 맛있는 아기 간식 감자옥수수치즈볼 에어프라이어로",
-      "menu_name": "감자옥수수치즈볼",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7000821"
     },
     {
@@ -1543,11 +1905,8 @@
     },
     {
       "title": "뻥튀기피자(유아용)",
-      "menu_name": "추천 메뉴",
-      "reasons": [
-        "no_menu_name",
-        "noise_word"
-      ],
+      "menu_name": "뻥튀기피자",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6970725"
     },
     {
@@ -1558,8 +1917,11 @@
     },
     {
       "title": "양파스크램블~유아,어린이반찬",
-      "menu_name": "양파스크램블",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6967429"
     },
     {
@@ -1636,8 +1998,11 @@
     },
     {
       "title": "아이반찬, 두부강정, 유아반찬,두부요리",
-      "menu_name": "두부강정 두부요리",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6895805"
     },
     {
@@ -1654,7 +2019,7 @@
     },
     {
       "title": "크래미 부침개-아이반찬 #전요리",
-      "menu_name": "전요리",
+      "menu_name": "계란 양파 전",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6880880"
     },
@@ -1714,20 +2079,26 @@
     },
     {
       "title": "10분 완성 초간단 유아식 3가지",
-      "menu_name": "3가지",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://taeolog.tistory.com/10"
     },
     {
       "title": "유아 반찬 쫀득한 감자조림 만드는법 간장감자조림 레시피",
-      "menu_name": "간장감자조림",
+      "menu_name": "감자조림 간장감자조림",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/7044821"
     },
     {
       "title": "아기 두부강정 소스 만들기 유아식 반찬 레시피",
-      "menu_name": "두부강정",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7035636"
     },
     {
@@ -1738,8 +2109,11 @@
     },
     {
       "title": "유아식 오이반찬 만들기",
-      "menu_name": "오이반찬",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/7030815"
     },
     {
@@ -1810,8 +2184,11 @@
     },
     {
       "title": "[유아식]아기간식 고구마 말랭이 에어프라이어로 만들기",
-      "menu_name": "고구마",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6993433"
     },
     {
@@ -1834,26 +2211,20 @@
     },
     {
       "title": "<어린이반찬>닭봉간장조림",
-      "menu_name": "어린이반찬 닭봉간장조림",
+      "menu_name": "닭봉간장조림",
       "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6978281"
     },
     {
       "title": "고소함이 가득한 마가렛트 만들기 초간단한 홈베이킹 땅콩버터쿠키 만드는법 (돌아기간식, 17개월아기간식)",
-      "menu_name": "추천 메뉴",
-      "reasons": [
-        "no_menu_name",
-        "noise_word"
-      ],
+      "menu_name": "땅콩버터쿠키",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6977802"
     },
     {
       "title": "에어프라이어로 서리태 다시마 쿠키 아기간식 만들기",
-      "menu_name": "추천 메뉴",
-      "reasons": [
-        "no_menu_name",
-        "noise_word"
-      ],
+      "menu_name": "서리태 다시마 쿠키",
+      "reasons": [],
       "url": "https://www.10000recipe.com/recipe/6973437"
     },
     {
@@ -1870,14 +2241,20 @@
     },
     {
       "title": "대왕맛살계란말이~유아,어린이반찬",
-      "menu_name": "대왕맛살계란말",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6964193"
     },
     {
       "title": "(아기 간식) 옥수수 김부각 (콘칩부각)",
-      "menu_name": "옥수수 김부각",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6956168"
     },
     {
@@ -1894,14 +2271,20 @@
     },
     {
       "title": "메추리알 분홍소세지부침~도시락반찬/어린이반찬",
-      "menu_name": "메추리알",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6951600"
     },
     {
       "title": "[아기식단] 아기 새우튀김 만들기! 칵테일새우 요리!",
-      "menu_name": "새우튀김 칵테일새우",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6950414"
     },
     {
@@ -1930,8 +2313,11 @@
     },
     {
       "title": "[아이반찬] 달콤 짧짤 바삭 부드러운 두부강정",
-      "menu_name": "두부강정",
-      "reasons": [],
+      "menu_name": "추천 메뉴",
+      "reasons": [
+        "no_menu_name",
+        "noise_word"
+      ],
       "url": "https://www.10000recipe.com/recipe/6922857"
     }
   ]
