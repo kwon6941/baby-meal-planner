@@ -1,0 +1,2 @@
+Netlify deployment connection test.
+Created by ChatGPT to verify automatic deploys from GitHub.
