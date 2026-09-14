@@ -12,84 +12,26 @@ permissions:
 jobs:
   patch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Patch app
-        shell: python
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply strict recipe matching
+        run: python tools/apply_recipe_quality_fix.py
+      - name: Install updater dependencies
+        run: pip install -r requirements-updater.txt
+      - name: Expand recipe database
+        run: python tools/update_recipes.py
+      - name: Commit changes
         run: |
-          from pathlib import Path
-
-          p = Path('index.html')
-          s = p.read_text(encoding='utf-8')
-
-          s = s.replace('settings:{pantryOnly:true,basicStaples:true}', 'settings:{pantryOnly:false,basicStaples:true}')
-          s = s.replace('if(state.settings.pantryOnly==null)state.settings.pantryOnly=true;', 'if(state.settings.pantryOnly==null)state.settings.pantryOnly=false;')
-
-          old = '''    renderRecipeDbStatus();
-              if(showToast)toast(`레시피 DB ${RECIPE_DB.length}개로 업데이트했습니다.`);'''
-          new = '''    renderRecipeDbStatus();
-              renderWeek();
-              if(showToast)toast(`레시피 DB ${RECIPE_DB.length}개로 업데이트했습니다.`);'''
-          if old in s:
-              s = s.replace(old, new, 1)
-          elif 'renderRecipeDbStatus();\n    if(showToast)toast(`레시피 DB ${RECIPE_DB.length}개로 업데이트했습니다.`);' in s:
-              s = s.replace('renderRecipeDbStatus();\n    if(showToast)toast(`레시피 DB ${RECIPE_DB.length}개로 업데이트했습니다.`);', 'renderRecipeDbStatus();\n    renderWeek();\n    if(showToast)toast(`레시피 DB ${RECIPE_DB.length}개로 업데이트했습니다.`);', 1)
-
-          old_validate = '''function validatePantry(){
-            if(!state.settings.pantryOnly)return true;
-            if(pantryItems().length)return true;
-            alert("‘보유 재료만 사용’이 켜져 있습니다. 먼저 냉장고 재료를 입력해 주세요.");
-            return false;
-          }'''
-          if old_validate not in s:
-              old_validate = '''function validatePantry(){
-            if(!state.settings.pantryOnly)return true;
-            if(pantryItems().length)return true;
-            alert("‘보유 재료만 사용’이 켜져 있습니다. 먼저 냉장고 재료를 입력해 주세요.");
-            return false;
-          }'''.replace('  ','')
-          new_validate = '''function validatePantry(){
-            if(!state.settings.pantryOnly)return true;
-            if(pantryItems().length)return true;
-            state.settings.pantryOnly=false;
-            const cb=$("pantryOnly");
-            if(cb)cb.checked=false;
-            save(false);
-            renderPantry();
-            toast("보유 재료가 없어 일반 추천으로 전환했습니다.");
-            return true;
-          }'''
-          # robust exact source block
-          target = 'function validatePantry(){\n  if(!state.settings.pantryOnly)return true;\n  if(pantryItems().length)return true;\n  alert("‘보유 재료만 사용’이 켜져 있습니다. 먼저 냉장고 재료를 입력해 주세요.");\n  return false;\n}'
-          repl = 'function validatePantry(){\n  if(!state.settings.pantryOnly)return true;\n  if(pantryItems().length)return true;\n  state.settings.pantryOnly=false;\n  const cb=$("pantryOnly");\n  if(cb)cb.checked=false;\n  save(false);\n  renderPantry();\n  toast("보유 재료가 없어 일반 추천으로 전환했습니다.");\n  return true;\n}'
-          s = s.replace(target, repl)
-          s = s.replace('./icons/apple-touch-icon.png', './icons/icon.svg')
-          p.write_text(s, encoding='utf-8')
-
-          Path('sw.js').write_text("""const CACHE='baby-meal-planner-v8';
-          const CORE=['./','./index.html','./manifest.webmanifest','./recipes.json','./icons/icon.svg'];
-          self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
-          self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-          self.addEventListener('fetch',e=>{
-            if(e.request.method!=='GET')return;
-            const u=new URL(e.request.url);
-            if(u.pathname.endsWith('/recipes.json')){
-              e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put('./recipes.json',copy)).catch(()=>{});return r}).catch(()=>caches.match('./recipes.json')));return;
-            }
-            if(e.request.mode==='navigate'){
-              e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put('./index.html',copy)).catch(()=>{});return r}).catch(()=>caches.match('./index.html')));return;
-            }
-            e.respondWith(caches.match(e.request).then(cached=>cached||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy)).catch(()=>{});return r})));
-          });
-          """, encoding='utf-8')
-      - name: Commit patched files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html sw.js
+          git config user.name "recipe-db-bot"
+          git config user.email "recipe-db-bot@users.noreply.github.com"
+          git add index.html sw.js tools/update_recipes.py recipes.json
           if git diff --cached --quiet; then
             echo "No changes needed"
           else
-            git commit -m "fix: recipe recommendations and PWA cache"
+            git commit -m "fix: strict recipe links and expand recipe database"
             git push
           fi
