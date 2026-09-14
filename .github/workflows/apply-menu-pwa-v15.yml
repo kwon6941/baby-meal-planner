@@ -1,0 +1,67 @@
+name: Apply menu cleanup and PWA v15
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/apply-menu-pwa-v15.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+environment:
+  name: github-pages
+  url: ${{ steps.deployment.outputs.page_url }}
+
+jobs:
+  apply-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Apply patch
+        run: python tools/fix_menu_and_pwa_v15.py
+
+      - name: Validate JavaScript syntax
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          m=re.search(r'<script>([\s\S]*?)</script>', s)
+          if not m:
+              raise SystemExit('script not found')
+          Path('/tmp/app.js').write_text(m.group(1),encoding='utf-8')
+          PY
+          node --check /tmp/app.js
+
+      - name: Commit app changes
+        shell: bash
+        run: |
+          if git diff --quiet -- index.html sw.js manifest.webmanifest; then
+            echo "No changes to commit."
+          else
+            git config user.name "app-fix-bot"
+            git config user.email "app-fix-bot@users.noreply.github.com"
+            git add index.html sw.js manifest.webmanifest
+            git commit -m "fix: clean DB menu names and refresh PWA v15"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
