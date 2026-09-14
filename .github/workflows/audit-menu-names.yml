@@ -1,0 +1,35 @@
+name: Audit recipe menu names
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/audit-menu-names.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Build menu names and audit all recipes
+        run: python tools/apply_menu_names.py
+
+      - name: Commit audit and menu names
+        shell: bash
+        run: |
+          git config user.name "recipe-audit-bot"
+          git config user.email "recipe-audit-bot@users.noreply.github.com"
+          git add recipes.json menu_name_audit.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "feat: normalize menu names for all recipes"
+            git push
+          fi
