@@ -1,4 +1,4 @@
-const CACHE='baby-meal-planner-v13';
+const CACHE='baby-meal-planner-v14';
 const CORE=['./','./index.html','./manifest.webmanifest','./recipes.json','./icons/icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
